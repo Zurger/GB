@@ -1,0 +1,68 @@
+:root{
+    --black: #222222;
+    --pink-bcg: #F1E4E6;
+    --pink-text: #f1808f;
+
+}
+.body{
+    font-family: 'Lato';
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header {
+    background-color: var(--black);
+}
+.header__logo-icon {
+    margin: 0 41px 0 0;
+}
+.header__logo {
+}
+.header__loop {
+}
+.header__button {
+}
+.header__link {
+    margin: 0 0 0 33px;
+}
+.header__menu {
+    display: none;
+}
+.header__wrp{
+    display: flex;
+    justify-content: space-between;
+    min-height: 75px;
+    align-items: center;
+}.brand {
+    display: flex;
+}
+.brand__image {
+}
+.brand__title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    color: var(--black);
+    text-transform: uppercase;
+}
+.brand__title-wrp {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 92px;
+    background-color: var(--pink-bcg);
+    flex-grow: 1;
+}
+.brand__sub-title {
+    display: block;
+    font-size: 32px;
+    line-height: 30px;
+
+}
+.brand__sub-title-pink{
+    color:var(--pink-text) ;
+}
